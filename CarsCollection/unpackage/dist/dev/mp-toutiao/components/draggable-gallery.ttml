@@ -1,0 +1,1 @@
+<view><block tt:for="{{images}}" tt:for-item="image" tt:for-index="index" tt:key="index"><view><view><view>{{image}}</view><image src="{{image}}"></image></view></view></block></view>

@@ -1,0 +1,16 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": false,
+        "newFeature": true
+    },
+    "appid": "体验appId",
+    "projectname": "车型大全",
+    "condition": {
+        "miniprogram": {
+            "current": -1
+        }
+    }
+}

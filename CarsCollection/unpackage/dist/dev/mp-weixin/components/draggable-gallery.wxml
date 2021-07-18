@@ -1,0 +1,1 @@
+<view><block wx:for="{{images}}" wx:for-item="image" wx:for-index="index" wx:key="index"><view><view><view>{{image}}</view><image src="{{image}}"></image></view></view></block></view>

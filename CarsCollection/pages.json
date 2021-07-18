@@ -1,0 +1,67 @@
+{
+	"easycom": {
+		// 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+		// 下载安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// npm安装方式
+		// "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/chooseCar/home",
+			"style": {
+				"navigationBarTitleText": "车型大全"
+			}
+		}, {
+			"path": "pages/chooseCar/brandSeries",
+			"style": {}
+		}, {
+			"path": "pages/chooseCar/seriesCar",
+			"style": {}
+		},
+		{
+			"path": "pages/chooseCar/chooseCity",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/mine/score",
+			"style": {
+				"navigationBarTitleText": "我的评分"
+			}
+		},{
+			"path": "pages/mine/testDrive",
+			"style": {
+				"navigationBarTitleText": "我的试驾"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000000", //未选中的菜单文字颜色
+		"selectedColor": "#000000", //选中时的菜单文字颜色
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff", //背景
+		"list": [{
+			"pagePath": "pages/chooseCar/home", //页面地址
+			"iconPath": "static/chooseCar-default.png", //未选中时的图片
+			"selectedIconPath": "static/chooseCar-selected.png", //选中时的图片
+			"text": "选车" //菜单文字
+		}, {
+			"pagePath": "pages/mine/mine", //页面地址
+			"iconPath": "static/mine-default.png", //未选中时的图片
+			"selectedIconPath": "static/mine-selected.png", //选中时的图片
+			"text": "我的" //菜单文字
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

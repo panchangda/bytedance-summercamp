@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/chooseCar/home",
+    "pages/chooseCar/brandSeries",
+    "pages/chooseCar/seriesCar",
+    "pages/chooseCar/chooseCity",
+    "pages/mine/mine",
+    "pages/mine/score",
+    "pages/mine/testDrive"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/chooseCar/home",
+        "iconPath": "static/chooseCar-default.png",
+        "selectedIconPath": "static/chooseCar-selected.png",
+        "text": "选车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/mine-default.png",
+        "selectedIconPath": "static/mine-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
